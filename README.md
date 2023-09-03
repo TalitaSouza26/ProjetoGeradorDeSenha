@@ -1,5 +1,5 @@
 
-<h1> Este é um projeto designado para geração de senhas Aleatorias, com a função do usuario escolher os caracteres para sua senha e copia-las,os inputs ckeckbox já inicia selecionador e o usuario escolhe se quer uma senha com todos os caracteres selecionados ou não.
+<h1> Este é um projeto designado para geração de senhas Aleatorias, com a função do usuario escolher os caracteres para sua senha e copia-las,os inputs ckeckboxs já inicia selecionados e o usuario escolhe se quer uma senha com todos os caracteres selecionados ou não.
 Usei HTML,CSS E JAVASCRIPT.</h1>
 
 
