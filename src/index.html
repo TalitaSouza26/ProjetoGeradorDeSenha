@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Gerador de Senha</title>
+</head>
+
+<body>
+    <div class="texto">GERADOR DE SENHAS</div>
+    <main class="container">
+        <p class="paragrafo">Se proteja com senhas fortes e seguras, escolha como quiser.</p>
+        <p class="title"> Sua senha gerada foi:</p>
+        <span class="password" id="pwdPassword"> </span>
+        <div class="container2" id="pwdInputsChars">
+            <span class="quinze" id="pwdValor">15</span>
+            <input type="range" class="Slider" id="pwdSlider" min="5" max="25" value="15">
+            <p class="caracteres">Escolha os caracteres</p>
+            <label for="numbers"> <input type="checkbox" name="numbers" checked>123</label>
+            <label for="lowercase"><input type="checkbox" name="lowercase" checked>abc</label>
+            <label for="uppercase"> <input type="checkbox" name="uppercase" checked>ABC</label>
+            <input type="checkbox" name="special" checked>@!#
+            <label for="special"></label>
+            <button class="onbutton" id="btnGenerate">GERAR</button>__
+            <button id="btnCopy" class="onbutton">COPIAR</button>
+        </div>
+    </main>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
